@@ -1,9 +1,9 @@
 import { Duration } from "@/types";
 
 // Upstash configs
-const USE_UPSTASH = process.env.USE_UPSTASH ?? "";
-const UPSTASH_URL = process.env.UPSTASH_REDIS_REST_URL ?? "";
-const UPSTASH_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN ?? "";
+const USE_UPSTASH = process.env.USE_UPSTASH ?? "true";
+const UPSTASH_URL = process.env.UPSTASH_REDIS_REST_URL ?? "https://musical-lab-36441.upstash.io";
+const UPSTASH_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN ?? "AY5ZAAIncDFhZGJlOTE5NTU3Y2I0MjRjODc0MzRiYTRkZjQwOWYyMXAxMzY0NDE";
 
 // Enable/Disable ratelimit
 const enabled = USE_UPSTASH === "true";
