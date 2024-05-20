@@ -19,7 +19,7 @@ export function Navbar() {
           "bg-accent/20 w-full items-center border-b"
         )}
       >
-        <div className="hidden select-none text-xl font-extrabold uppercase md:block">
+        {/* <div className="hidden select-none text-xl font-extrabold uppercase md:block">
           Downloader
         </div>
         <MobileNav className="md:hidden" />
@@ -44,7 +44,7 @@ export function Navbar() {
             </Link>
           </div>
           <ThemeToggle />
-        </div>
+        </div> */}
       </nav>
     </header>
   );
