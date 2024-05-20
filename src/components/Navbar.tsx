@@ -19,12 +19,12 @@ export function Navbar() {
           "bg-accent/20 w-full items-center border-b"
         )}
       >
-        {/* <div className="hidden select-none text-xl font-extrabold uppercase md:block">
+        <div className="hidden select-none text-xl font-extrabold uppercase md:block">
           Downloader
         </div>
         <MobileNav className="md:hidden" />
-        <div className="ml-auto flex items-center gap-4">
-          <div className="hidden items-center gap-4 text-lg sm:gap-8 sm:pr-8 md:flex">
+         <div className="ml-auto flex items-center gap-4">
+          {/* <div className="hidden items-center gap-4 text-lg sm:gap-8 sm:pr-8 md:flex">
             <Link href="/" className="hover:underline">
               Home
             </Link>
@@ -42,9 +42,9 @@ export function Navbar() {
             >
               Creator
             </Link>
-          </div>
+          </div>  */}
           <ThemeToggle />
-        </div> */}
+        </div>
       </nav>
     </header>
   );

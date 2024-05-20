@@ -34,7 +34,7 @@ export function MobileNav({ className }: { className?: string }) {
         <h2 className="mb-4 text-center text-lg font-semibold">
           Site Navigation
         </h2>
-        <ul className="mb-8 space-y-3">
+        {/* <ul className="mb-8 space-y-3">
           {siteLinks.map((link) => (
             <li key={link.href}>
               <Button
@@ -71,7 +71,7 @@ export function MobileNav({ className }: { className?: string }) {
               </Button>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </SheetContent>
     </Sheet>
   );
