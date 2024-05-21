@@ -25,12 +25,13 @@ export function MobileNav({ className }: { className?: string }) {
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
-      <h2>asa</h2>
+      
       <SheetTrigger asChild>
         <Button size="icon" variant="outline" className={className}>
           <Menu className="h-4 w-4" />
         </Button>
       </SheetTrigger>
+      <h2>Downloader</h2>
       <SheetContent side="left">
         <h2 className="mb-4 text-center text-lg font-semibold">
           Site Navigation
