@@ -43,7 +43,7 @@ export function Navbar() {
               Creator
             </Link>
           </div>  */}
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
         </div>
       </nav>
     </header>
