@@ -9,6 +9,8 @@ export default function HomePage() {
       <section className="flex flex-col items-center justify-center gap-4">
         <InstagramVideoForm />
       </section>
+      <p>Beta Release Version: V1.0.0 </p>
+      <p> &copy; <a href="https://msraj.in">msraj.in</a></p>
     </div>
   );
 }
