@@ -31,7 +31,7 @@ export function MobileNav({ className }: { className?: string }) {
           <Menu className="h-4 w-4" />
         </Button>
       </SheetTrigger>
-      <div className="select-none text-xl font-extrabold uppercase md:block">
+      <div className="ml-4 select-none text-xl font-extrabold uppercase md:block">
         Downloader
       </div>
       <SheetContent side="left">
