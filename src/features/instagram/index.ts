@@ -34,9 +34,9 @@ const getVideoJSONFromGraphQL = async (postId: string) => {
     return null;
   }
 
-  if (!mediaData.is_video) {
-    throw new HTTPError("This post is not a video", 400);
-  }
+  // if (!mediaData.is_video) {
+  //   throw new HTTPError("This post is not a video", 400);
+  // }
 
   const videoInfo = formatGraphqlJson(mediaData);
   return videoInfo;
